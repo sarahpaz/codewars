@@ -1,3 +1,6 @@
+// Calculate Parity Bits
+// https://www.codewars.com/kata/5df261342964c80028345a0a
+
 function checkParity(parity, bin) {
   let count = 0;
 
