@@ -4,3 +4,5 @@
 function checkForFactor(base, factor) {
   return base % factor == 0 ? true : false;
 }
+
+console.log(Math.ceil(5 / 3));
