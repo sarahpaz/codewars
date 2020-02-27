@@ -5,9 +5,6 @@ function solution(s) {
     return s.match(/../g);
   } else {
     const newString = s + "_";
-    return newString
-      .split("")
-      .join("")
-      .match(/../g);
+    return newString.match(/../g);
   }
 }
