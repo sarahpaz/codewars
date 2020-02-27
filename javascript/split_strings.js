@@ -4,8 +4,8 @@ function solution(s) {
   if (s.length % 2 === 0) {
     return s.match(/../g);
   } else {
-    const arg = s + "_";
-    return arg
+    const newString = s + "_";
+    return newString
       .split("")
       .join("")
       .match(/../g);
